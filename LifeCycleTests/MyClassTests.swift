@@ -16,4 +16,9 @@ class MyClassTests: XCTestCase {
         sut.methodOne()
     }
 
+    func test_methodTwo() {
+        let sut = MyClass()
+        sut.methodTwo()
+    }
+
 }
