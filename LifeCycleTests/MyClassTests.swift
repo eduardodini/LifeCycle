@@ -10,15 +10,13 @@ import XCTest
 
 class MyClassTests: XCTestCase {
 
+    let sut = MyClass()
+
     func test_methodOne() {
-        // sut -> system under test
-        let sut = MyClass()
         sut.methodOne()
-        XCTFail("failed test ")
     }
 
     func test_methodTwo() {
-        let sut = MyClass()
         sut.methodTwo()
     }
 
