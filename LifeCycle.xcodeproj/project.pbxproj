@@ -16,6 +16,8 @@
 		31A8742A2852402600BED596 /* LifeCycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A874292852402600BED596 /* LifeCycleTests.swift */; };
 		31A874342852402600BED596 /* LifeCycleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A874332852402600BED596 /* LifeCycleUITests.swift */; };
 		31A874362852402600BED596 /* LifeCycleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A874352852402600BED596 /* LifeCycleUITestsLaunchTests.swift */; };
+		31A87443285240FF00BED596 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A87442285240FF00BED596 /* MyClass.swift */; };
+		31A87445285241A600BED596 /* MyClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A87444285241A600BED596 /* MyClassTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		31A8742F2852402600BED596 /* LifeCycleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeCycleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A874332852402600BED596 /* LifeCycleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleUITests.swift; sourceTree = "<group>"; };
 		31A874352852402600BED596 /* LifeCycleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		31A87442285240FF00BED596 /* MyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
+		31A87444285241A600BED596 /* MyClassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClassTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 				31A874122852402500BED596 /* AppDelegate.swift */,
 				31A874142852402500BED596 /* SceneDelegate.swift */,
 				31A874162852402500BED596 /* ViewController.swift */,
+				31A87442285240FF00BED596 /* MyClass.swift */,
 				31A874182852402500BED596 /* Main.storyboard */,
 				31A8741B2852402600BED596 /* Assets.xcassets */,
 				31A8741D2852402600BED596 /* LaunchScreen.storyboard */,
@@ -114,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				31A874292852402600BED596 /* LifeCycleTests.swift */,
+				31A87444285241A600BED596 /* MyClassTests.swift */,
 			);
 			path = LifeCycleTests;
 			sourceTree = "<group>";
@@ -258,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31A87443285240FF00BED596 /* MyClass.swift in Sources */,
 				31A874172852402500BED596 /* ViewController.swift in Sources */,
 				31A874132852402500BED596 /* AppDelegate.swift in Sources */,
 				31A874152852402500BED596 /* SceneDelegate.swift in Sources */,
@@ -268,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31A87445285241A600BED596 /* MyClassTests.swift in Sources */,
 				31A8742A2852402600BED596 /* LifeCycleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
