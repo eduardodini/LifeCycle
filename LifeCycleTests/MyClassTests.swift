@@ -6,11 +6,14 @@
 //
 
 import XCTest
+@testable import LifeCycle
 
 class MyClassTests: XCTestCase {
 
-    func test_zero() {
-        XCTFail("Tests not yet implemented in MyClassTests")
+    func test_methodOne() {
+        // sut -> system under test
+        let sut = MyClass()
+        sut.methodOne()
     }
-    
+
 }
